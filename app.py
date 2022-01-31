@@ -4,7 +4,6 @@ import os
 from urllib.parse import urlencode
 from flask import Flask, render_template,request
 from flask_sqlalchemy import SQLAlchemy
-
 gmaps = googlemaps.Client(key="AIzaSyB-BsREvkWKBFGRQWcmNtcES8k9WIArCnw")
 API_KEY = "AIzaSyB-BsREvkWKBFGRQWcmNtcES8k9WIArCnw"
 app = Flask(__name__)
